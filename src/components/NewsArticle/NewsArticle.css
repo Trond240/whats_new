@@ -1,5 +1,6 @@
 .article-card {
+  background-color: #66FCF1;
   border: 2px solid black;
-  width: 25%;
+  width: 33%;
   margin: 2px;
 }
