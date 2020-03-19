@@ -5,10 +5,11 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 // NEWSCONTAINER COMPONENT CODE GOES HERE
 
 export const NewsContainer = (props) => {
+  console.log(props.newsArticles)
  return (
     <section className='news-container'>
       {
-        props.localArticles.map(article => {
+        props.newsArticles.map(article => {
         return <NewsArticle
             headline={article.headline}
             image={article.img}
