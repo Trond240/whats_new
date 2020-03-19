@@ -7,7 +7,7 @@ export const Menu = (props) => {
   console.log(props)
   return (
     <nav>
-      <h1>What's <span className='new'>New?</span></h1>
+      <h1 className='heading'>What's <span className='new'>New?</span></h1>
       <ul className='menu-bar'>
         <li className='nav-category' onClick={() => props.changeNews('local')}>Local News</li>
         <li className='nav-category' onClick={() => props.changeNews('technology')}>Technology</li>

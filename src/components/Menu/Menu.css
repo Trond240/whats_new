@@ -1,0 +1,12 @@
+.heading {
+  color: #66FCF1;
+  font-size: 3em;
+}
+
+li {
+  color: #66FCF1;
+  background-color:#1F2833;
+  font-size: 2em;
+  border: 2px solid #66FCF1;
+  margin-top: 20px;
+}
