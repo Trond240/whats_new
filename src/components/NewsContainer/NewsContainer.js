@@ -5,7 +5,6 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 // NEWSCONTAINER COMPONENT CODE GOES HERE
 
 export const NewsContainer = (props) => {
-  console.log(props.newsArticles)
  return (
     <section className='news-container'>
       {

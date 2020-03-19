@@ -7,9 +7,12 @@ const NewsArticle = (props) => {
     <article className='article-card' id={props.id}>
       <h1>{props.headline}</h1>
         <div className='image-div'>
-          <img src={props.img} alt={props.headline}/>
+          <img src={props.image} alt={props.headline}/>
         </div>
-      <p>Description{props.description}</p>
+      <p>{props.description}</p>
+      <footer className='footer-info'>
+         <a className='url' href={props.url}>Link To Article</a>
+       </footer>
     </article>
   )
 };

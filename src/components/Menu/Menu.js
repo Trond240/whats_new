@@ -4,7 +4,6 @@ import './Menu.css'
 // MENU COMPONENT CODE GOES HERE
 
 export const Menu = (props) => {
-  console.log(props)
   return (
     <nav>
       <h1 className='heading'>What's <span className='new'>New?</span></h1>
